@@ -1,11 +1,11 @@
 export default function SentinelStrength() {
     return(
         <div>
-           
+          
                 <table>
           <thead >
             <tr>
-              <td className="h-[50px]"><a href="kunka"><img src="images/1/ku.jpg" alt="" className="w-[50px]" /></a></td>
+              <td className="h-[50px]]"><a href="kunka"><img src="images/1/ku.jpg" alt="" className="w-[50px]" /></a></td>
               <td className="h-[50px]"><img src="images/1/al.jpg" alt="" className="w-[50px]" /></td>
               <td className="h-[50px]"><img src="images/1/b.jpg" alt="" className="w-[50px]" /></td>
               <td className="h-[50px]"><img src="images/1/cen.jpg" alt="" className="w-[50px]" /></td>

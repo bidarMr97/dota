@@ -67,7 +67,3 @@ body {
   src: url("/fonts/peyda-Regular.woff2") format("woff2");
 }
 
-td, tr {
-  border: 1px solid black ;
-  
-}
