@@ -1,6 +1,10 @@
 export default function SupportiveVestments() {
     return(
         <div>
+            <div className="flex items-center justify-center gap-[2px] border-[2px]" dir="ltr">
+        <img src="images/items/2/m.png" alt="" className="w-[20px] h-[20px]" />
+        <h1 className="text-white">Supportive Vestments</h1>
+      </div>
             <table>
                 <thead>
                     <tr>
