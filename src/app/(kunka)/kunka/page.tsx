@@ -1,7 +1,10 @@
 export default function Kunka() {
     return(
         <div>
-            hello
+         <img src="" alt="" />
+         <img src="" alt="" />
+         <img src="" alt="" />
+         <img src="" alt="" />
         </div>
     )
 }
