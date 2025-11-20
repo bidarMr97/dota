@@ -13,7 +13,7 @@ import Protectorate from "@/components/items/Protectorate/page";
 import SupportiveVestments from "@/components/items/supportive vestments/page";
 import TrophyDealer from "@/components/items/Trophy Dealer/page";
 import WeaponsDealer from "@/components/items/Weapons Dealer/page";
-import ScourgeAguility from "@/components/scourge aguility/page";
+import ScourgeAguility from "@/components/scourge agility/page";
 import ScourgeIntel from "@/components/scourge intel/page";
 import ScourgeStrength from "@/components/scourge strength/page";
 import SentinelAguility from "@/components/sentinel aguility/page";
