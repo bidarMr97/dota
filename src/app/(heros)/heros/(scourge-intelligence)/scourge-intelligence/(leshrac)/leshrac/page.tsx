@@ -1,0 +1,11 @@
+export default function () {
+    return(
+        <div>
+            <img src="/images/heros/leshrac/1.jpg" alt="" />
+            <img src="/images/heros/leshrac/2.jpg" alt="" />
+            <img src="/images/heros/leshrac/3.jpg" alt="" />
+            <img src="/images/heros/leshrac/4.jpg" alt="" />
+            <img src="/images/heros/leshrac/5.jpg" alt="" />
+        </div>
+    )
+}

@@ -1,0 +1,10 @@
+export default function () {
+    return(
+        <div>
+            <img src="/images/heros/magnatur/1.jpg" alt="" />
+            <img src="/images/heros/magnatur/2.jpg" alt="" />
+            <img src="/images/heros/magnatur/3.jpg" alt="" />
+            <img src="/images/heros/magnatur/4.jpg" alt="" />
+        </div>
+    )
+}
