@@ -4,8 +4,8 @@ export default function () {
     return (
 
         <div>
-          <img src="/images/items/Cache/scepter.png" alt="" className="m-auto"/>
-          <img src="/images/items/Cache/8.jpg" alt="" />
+          <img src="/images/items/cache/scepter.png" alt="" className="m-auto"/>
+          <img src="/images/items/cache/8.jpg" alt="" />
            <div className="flex justify-center mt-[20px] mb-[20px]">
                   <table>
                     <thead>
