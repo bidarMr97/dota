@@ -12,21 +12,21 @@ export default function Centaur() {
       <img src="/images/heros/centaur/7.jpg" alt="" />
       <div>
         <Table data={[
-          { href: "null", img: "null", className: "null" },
-          { href: "null", img: "null", className: "null" },
-          { href: "null", img: "null", className: "null" },
+          { href: "/items/gateway/bracer", img: "/images/items/gateway/bracer.png", className: "null" },
+          { href: "/items/gateway/power", img: "/images/items/gateway/power.png", className: "null" },
+          { href: "/items/wonders/tango", img: "/images/items/wonders/tango.png", className: "null" },
           { href: "null", img: "null", className: "null" },
           { href: "null", img: "null", className: "null" },
           { href: "null", img: "null", className: "null" },]} />
       </div>
       <div>
         <Table data={[
-          { href: "null", img: "null", className: "null" },
-          { href: "null", img: "null", className: "null" },
-          { href: "null", img: "null", className: "null" },
-          { href: "null", img: "null", className: "null" },
-          { href: "null", img: "null", className: "null" },
-          { href: "null", img: "null", className: "null" },]} />
+          { href: "/items/protector/blade", img: "/images/items/protector/blade.png", className: "null" },
+          { href: "/items/protector/crimson", img: "/images/items/protector/crimson.png", className: "null" },
+          { href: "/items/supportive/pipe", img: "/images/items/supportive/pipe.png", className: "null" },
+          { href: "/items/trophy/overwhelm", img: "/images/items/trophy/overwhelm.png", className: "null" },
+          { href: "/items/gateway/boots", img: "/images/items/gateway/boots.png", className: "null" },
+          { href: "/items/protector/heart", img: "/images/items/protector/heart.png", className: "null" },]} />
       </div>
     </div>
   )

@@ -9,21 +9,21 @@ export default function () {
             <img src="/images/heros/traxex/4.jpg" alt="" />
             <div>
                 <Table data={[
-                    { href: "null", img: "null", className: "null" },
-                    { href: "null", img: "null", className: "null" },
-                    { href: "null", img: "null", className: "null" },
+                    { href: "/items/todd/aquila", img: "/images/items/todd/aquila.png", className: "null" },
+                    { href: "/items/wonders/tango", img: "/images/items/wonders/tango.png", className: "null" },
+                    { href: "/items/gateway/phase", img: "/images/items/gateway/phase.png", className: "null" },
                     { href: "null", img: "null", className: "null" },
                     { href: "null", img: "null", className: "null" },
                     { href: "null", img: "null", className: "null" },]} />
             </div>
             <div>
                 <Table data={[
-                    { href: "null", img: "null", className: "null" },
-                    { href: "null", img: "null", className: "null" },
-                    { href: "null", img: "null", className: "null" },
-                    { href: "null", img: "null", className: "null" },
-                    { href: "null", img: "null", className: "null" },
-                    { href: "null", img: "null", className: "null" },]} />
+                    { href: "/items/enchanted/manta", img: "/images/items/enchanted/manta.png", className: "null" },
+                    { href: "/items/enchanted/satanic", img: "/images/items/enchanted/satanic.png", className: "null" },
+                    { href: "/items/ancient/silver", img: "/images/items/ancient/silver.png", className: "null" },
+                    { href: "/items/gateway/boots", img: "/images/items/gateway/boots.png", className: "null" },
+                    { href: "/items/ancient/kayanon", img: "/images/items/ancient/kayanon.png", className: "null" },
+                    { href: "/items/todd/aghanim", img: "/images/items/todd/aghanim.png", className: "null" },]} />
             </div>
         </div>
     )
