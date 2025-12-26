@@ -2,6 +2,7 @@ type TableItem = {
   href: string;
   img: string;
   className:string;
+  alt:string;
 };
 
 interface TableProps {
@@ -25,7 +26,7 @@ export default function Table({ data }: TableProps) {
                 const item = data[index];
                 return (
                   <td key={colIndex} className="text-[white] w-[100px] h-[80px] border-[5px] border-[red]">
-                    {item ? (<a href={item.href}><img src={item.img} className={item.className} alt="" /></a>
+                    {item ? (<a href={item.href}><img src={item.img} className={item.className} alt={item.alt} /></a>
                     ):null}
                   </td>
                 );

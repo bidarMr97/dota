@@ -1,7 +1,7 @@
 export default function EnchantedArtifacts() {
     return (
         <div>
-            <div className="flex items-center justify-center gap-[2px] border-[2px]" dir="ltr">
+            <div className="flex items-center justify-center gap-[2px] border-[4px] border-[green]" dir="ltr">
                 <img src="images/items/enchanted/m.png" alt="" className="w-[20px] h-[20px]" />
                 <h1 className="text-white">Enchanted Artifacts</h1>
             </div>

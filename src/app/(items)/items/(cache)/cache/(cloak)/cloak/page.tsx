@@ -4,15 +4,15 @@ export default function () {
     return (
 
         <div>
-          <img src="/images/items/Cache/cloak.png" alt="" className="m-auto"/>
-          <img src="/images/items/Cache/2.jpg" alt="" />
+          <img src="/images/items/cache/cloak.png" alt="آیتم کش شنل" className="m-auto"/>
+          <img src="/images/items/cache/2.jpg" alt="نمای آیتم کش شنل" className="lg:w-[450px] m-auto border-6 border-red-500"/>
            <div className="flex justify-center mt-[20px] mb-[20px]">
                   <table>
                     <thead>
                       <tr>
-                        <td><a href=""><img src="/images/items/cache/cloak.png" alt="" /></a></td>
+                        <td><a href=""><img src="/images/items/cache/cloak.png" alt="آیتم کش شنل" /></a></td>
                         <td><FaLongArrowAltLeft size={32} color="red" /></td>
-                        <td><img src="/images/items/cache/m.png" alt="" /></td>
+                        <td><img src="/images/items/cache/m.png" alt="مواد کش" /></td>
                       </tr>
                     </thead>
                   </table>

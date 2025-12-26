@@ -4,30 +4,30 @@ export default function () {
   return (
 
     <div>
-      <img src="../../images/items/arcane/rod.png" alt="" className="m-auto" />
-      <img src="../../images/items/arcane/2.jpg" alt="" />
+      <img src="/images/items/arcane/rod.png" alt="آیتم آرکین راد" className="m-auto" />
+      <img src="/images/items/arcane/2.jpg" alt="نمای آیتم آرکین راد" className="lg:w-[450px] m-auto border-6 border-red-500"/>
       <div className="flex justify-center mt-[20px] mb-[20px]">
         <table>
           <thead>
             <tr>
-              <td><a href="../gryla/staff"><img src="../../images/items/gryla/staff.png" alt="" /></a></td>
+              <td><a href="/items/gryla/staff"><img src="/images/items/gryla/staff.png" alt="عصای گریلا" /></a></td>
               <td><FaLongArrowAltLeft size={32} color="red" /></td>
-              <td><img src="../../images/items/gryla/m.png" alt="" /></td>
+              <td><img src="/images/items/gryla/m.png" alt="مواد گریلا" /></td>
             </tr>
             <tr>
-              <td><a href="../gryla/crown"><img src="../../images/items/gryla/crown.png" alt="" /></a></td>
+              <td><a href="/items/gryla/crown"><img src="/images/items/gryla/crown.png" alt="تاج گریلا" /></a></td>
               <td><FaLongArrowAltLeft size={32} color="red" /></td>
-              <td><img src="../../images/items/gryla/m.png" alt="" /></td>
+              <td><img src="/images/items/gryla/m.png" alt="مواد گریلا" /></td>
             </tr>
             <tr>
-              <td><a href="../gryla/crown"><img src="../../images/items/gryla/crown.png" alt="" /></a></td>
+              <td><a href="/items/gryla/crown"><img src="/images/items/gryla/crown.png" alt="تاج گریلا" /></a></td>
               <td><FaLongArrowAltLeft size={32} color="red" /></td>
-              <td><img src="../../images/items/gryla/m.png" alt="" /></td>
+              <td><img src="/images/items/gryla/m.png" alt="مواد گریلا" /></td>
             </tr>
             <tr>
-              <td><a href=""><img src="../../images/items/1.png" alt="" /></a></td>
+              <td><a href=""><img src="/images/items/1.png" alt="آیتم پایه" /></a></td>
               <td><FaLongArrowAltLeft size={32} color="red" /></td>
-              <td><img src="../../images/items/arcane/m.png" alt="" /></td>
+              <td><img src="/images/items/arcane/m.png" alt="مواد آرکین" /></td>
             </tr>
           </thead>
         </table>

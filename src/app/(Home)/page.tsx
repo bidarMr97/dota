@@ -22,85 +22,85 @@ import ScourgeIntel from "@/components/heros/scourge-intel/page";
 
 export default function Home() {
   return (
-    <div dir="ltr" className="flex flex-col p-[4px]">
+    <div className="flex flex-col p-[4px]">
 
-      <div className="flex flex-wrap h-[180px]  border-[2px]">
+      <div className="flex flex-wrap h-[180px] sm:w-[400px] sm:h-[193px]">
         <SentinelStrength />
       </div>
 
-      <div className="flex flex-wrap h-[180px]  border-[2px]">
+      <div className="flex flex-wrap h-[185px] sm:w-[400px] sm:h-[190px]">
         <SentinelAguility />
       </div>
 
-      <div className="flex flex-wrap h-[180px]  border-[2px]">
+      <div className="flex flex-wrap h-[185px] sm:w-[400px] sm:h-[190px]">
         <SentinelIntel />
       </div>
 
-      <div className="flex flex-wrap h-[180px]  border-[2px]">
+      <div className="flex flex-wrap h-[185px] sm:w-[400px] sm:h-[190px]">
         <ScourgeStrength />
       </div>
 
-      <div className="flex flex-wrap h-[180px]  border-[2px]">
+      <div className="flex flex-wrap h-[185px] sm:w-[400px] sm:h-[190px]">
         <ScourgeAguility />
       </div>
 
-      <div className="flex flex-wrap h-[180px]  border-[2px]">
+      <div className="flex flex-wrap h-[185px] sm:w-[400px] sm:h-[188px]">
         <ScourgeIntel />
       </div>
 
-      <div className="flex flex-wrap h-[110px]  border-[2px]">
+      <div className="flex flex-wrap h-[110px] sm:h-[180px] sm:w-[759px]">
         <GatewayRelics />
       </div>
 
-      <div className="flex flex-wrap h-[107px]  border-[2px]">
+      <div className="flex flex-wrap h-[107px] sm:h-[180px] sm:w-[759px]">
         <SupportiveVestments />
       </div>
 
-      <div className="flex flex-wrap h-[105px]  border-[2px]">
+      <div className="flex flex-wrap h-[105px] sm:h-[180px] sm:w-[759px]">
         <ArcaneSanctum />
       </div>
 
-      <div className="flex flex-wrap h-[107px]  border-[2px]">
+      <div className="flex flex-wrap h-[107px] sm:h-[180px] sm:w-[759px]">
         <ProtecTorate />
       </div>
 
-      <div className="flex flex-wrap h-[106px]  border-[2px]">
+      <div className="flex flex-wrap h-[106px] sm:h-[180px] sm:w-[759px]">
         <EnchantedArtifacts />
       </div>
 
-      <div className="flex flex-wrap h-[107px]  border-[2px]">
+      <div className="flex flex-wrap h-[112px] sm:h-[180px] sm:w-[759px]">
         <AncientWeaponry />
       </div>
 
-      <div className="flex flex-wrap h-[105px]  border-[2px]">
+      <div className="flex flex-wrap h-[107px] sm:h-[180px] sm:w-[759px]">
         <GrylaTheAccessorizer />
       </div>
 
-      <div className="flex flex-wrap h-[105px]  border-[2px]">
+      <div className="flex flex-wrap h-[106px] sm:h-[180px] sm:w-[759px]">
         <WeaponsDealer />
       </div>
 
-      <div className="flex flex-wrap h-[105px]  border-[2px]">
+      <div className="flex flex-wrap h-[105px] sm:h-[180px] sm:w-[759px]">
         <CacheoftheQuelthelan />
       </div>
 
-      <div className="flex flex-wrap h-[66px]  border-[2px]">
+      <div className="flex flex-wrap h-[68px] sm:h-[105px] sm:w-[759px]">
         <AncientOfWonders />
       </div>
 
-      <div className="flex flex-wrap h-[65px]  border-[2px]">
+      <div className="flex flex-wrap h-[65px] sm:h-[102px] sm:w-[759px]">
         <BlackMarket />
       </div>
 
-      <div className="flex flex-wrap h-[120px]  border-[2px]">
+      <div className="flex flex-wrap h-[110px] sm:h-[180px] sm:w-[759px]">
         <TrophyDealer />
       </div>
 
-      <div className="flex flex-wrap h-[108px]  border-[2px]">
+      <div className="flex flex-wrap h-[108px] sm:h-[180px] sm:w-[759px]">
         <BeggarTodd />
       </div>
 
-      <div className="flex flex-wrap h-[107px]  border-[2px]">
+      <div className="flex flex-wrap h-[107px] sm:h-[180px] sm:w-[759px]">
         <LeragasTheVile />
       </div>
     </div>

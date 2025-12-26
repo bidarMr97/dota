@@ -1,7 +1,7 @@
 export default function ScourgeAguility() {
     return(
         <div>
-            <div className="flex items-center justify-center gap-[2px] border-[2px]" dir="ltr">
+            <div className="flex items-center justify-center gap-[2px] border-6 border-green-950" dir="ltr">
         <img src="images/5.png" alt="" className="w-[20px] h-[20px]" />
         <h1 className="text-white">Scourge Aguility</h1>
       </div>

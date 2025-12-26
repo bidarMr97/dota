@@ -1,7 +1,7 @@
 export default function ScourgeIntel() {
     return(
         <div>
-            <div className="flex items-center justify-center gap-[2px] border-[2px]" dir="ltr">
+            <div className="flex items-center justify-center gap-[2px] border-6 border-cyan-900" dir="ltr">
         <img src="/images/6.png" alt="" className="w-[20px] h-[20px]" />
         <h1 className="text-white">Scourge Intelligence</h1>
       </div>

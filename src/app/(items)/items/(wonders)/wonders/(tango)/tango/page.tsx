@@ -4,19 +4,19 @@ export default function () {
     return (
 
         <div>
-          <img src="/images/items/wonders/tango.png" alt="" className="m-auto"/>
-          <img src="/images/items/wonders/5.jpg" alt="" />
+          <img src="/images/items/wonders/tango.png" alt="شگفتی تانگو" className="m-auto"/>
+          <img src="/images/items/wonders/5.jpg" alt="تصویر شگفتی شماره پنج" className="lg:w-[450px] m-auto border-6 border-red-500"/>
           <div className="flex justify-center mt-[20px] mb-[20px]">
-                            <table>
-                              <thead>
-                                <tr>
-                                  <td><a href=""><img src="/images/items/wonders/tango.png" alt="" /></a></td>
-                                  <td><FaLongArrowAltLeft size={32} color="red" /></td>
-                                  <td><img src="/images/items/wonders/m.png" alt="" /></td>
-                                </tr>
-                              </thead>
-                            </table>
-                          </div>
+            <table>
+              <thead>
+                <tr>
+                  <td><a href=""><img src="/images/items/wonders/tango.png" alt="شگفتی تانگو" /></a></td>
+                  <td><FaLongArrowAltLeft size={32} color="red" /></td>
+                  <td><img src="/images/items/wonders/m.png" alt="مواد شگفتی" /></td>
+                </tr>
+              </thead>
+            </table>
+          </div>
         </div>
     )
 }

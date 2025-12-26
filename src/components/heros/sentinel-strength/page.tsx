@@ -1,14 +1,14 @@
 export default function SentinelStrength() {
   return (
     <div>
-      <div className="flex items-center justify-center gap-[2px] border-[2px]" dir="ltr">
+      <section className="flex items-center justify-center gap-[2px] border-6 border-red-700">
         <img src="images/1.jpg" alt="" className="w-[20px] h-[20px]" />
         <h1 className="text-white">Sentinel Strength</h1>
-      </div>
+      </section>
       <table>
         <thead >
           <tr>
-            <td className="h-[50px]"><a href="/heros/sentinel-strength/kunka"><img src="images/heros/kunka/ku.jpg" alt="" className="w-[50px]" /></a></td>
+            <td className="h-[50px]"><a href="/heros/sentinel-strength/kunka"><img src="images/heros/kunka/ku.jpg" alt="" className="w-[50px]"/></a></td>
             <td className="h-[50px]"><a href="/heros/sentinel-strength/alchmist"><img src="images/heros/alchmist/al.jpg" alt="" className="w-[50px]" /></a></td>
             <td className="h-[50px]"><a href="/heros/sentinel-strength/brewmaster"><img src="images/heros/brewmaster/b.jpg" alt="" className="w-[50px]" /></a></td>
             <td className="h-[50px]"><a href="/heros/sentinel-strength/centaur"><img src="images/heros/centaur/cen.jpg" alt="" className="w-[50px]" /></a></td>

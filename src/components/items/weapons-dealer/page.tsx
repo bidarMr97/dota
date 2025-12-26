@@ -1,7 +1,7 @@
 export default function WeaponsDealer() {
     return (
         <div>
-            <div className="flex items-center justify-center gap-[2px] border-[2px]" dir="ltr">
+            <div className="flex items-center justify-center gap-[2px] border-[4px] border-[green]" dir="ltr">
                 <img src="images/items/weapons/m.png" alt="" className="w-[20px] h-[20px]" />
                 <h1 className="text-white">Weapons Dealer  </h1>
             </div>

@@ -4,15 +4,15 @@ export default function () {
     return (
 
         <div>
-          <img src="/images/items/weapons/mithril.png" alt="" className="m-auto"/>
-          <img src="/images/items/weapons/7.jpg" alt="" />
+          <img src="/images/items/weapons/mithril.png" alt="سلاح میتریل" className="m-auto"/>
+          <img src="/images/items/weapons/7.jpg" alt="تصویر سلاح شماره هفت" className="lg:w-[450px] m-auto border-6 border-red-500"/>
            <div className="flex justify-center mt-[20px] mb-[20px]">
                   <table>
                     <thead>
                       <tr>
-                        <td><a href=""><img src="/images/items/weapons/mithril.png" alt="" /></a></td>
+                        <td><a href=""><img src="/images/items/weapons/mithril.png" alt="سلاح میتریل" /></a></td>
                         <td><FaLongArrowAltLeft size={32} color="red" /></td>
-                        <td><img src="/images/items/weapons/m.png" alt="" /></td>
+                        <td><img src="/images/items/weapons/m.png" alt="مواد سلاح" /></td>
                       </tr>
                     </thead>
                   </table>
