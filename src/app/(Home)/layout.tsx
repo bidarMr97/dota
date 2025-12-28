@@ -19,6 +19,14 @@ export const metadata: Metadata = {
   manifest: "/manifest.json",
   themeColor: "#ffffff",
   icons: [{ rel: "icon", url: "/images/war.jpg" }],
+  metadataBase: new URL("https://dota1.ir"), //add this
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function RootLayout({
@@ -27,9 +35,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" dir="ltr">
+    <html lang="fa" dir="ltr" className="scroll-smooth">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`} >
-           <SWRegister />
+        <SWRegister />
         <img src="/images/war.jpg" alt="warcraft" className="absolute fixed -z-10 h-full w-full object-cover blur-[3px]" />
         <main>
           {children}
