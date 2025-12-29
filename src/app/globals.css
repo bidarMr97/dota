@@ -67,3 +67,10 @@ body {
   src: url("/fonts/peyda-Regular.woff2") format("woff2");
 }
 
+img {
+  filter: none !important;
+}
+
+.no-dark {
+  filter: none !important;
+}

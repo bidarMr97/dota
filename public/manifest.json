@@ -1,10 +1,12 @@
 {
   "name": "dota1",
-  "short_name": "pwa",
+  "short_name": "dota1",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-    "icons": [
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
     {
       "src": "/images/icon-192.png",
       "sizes": "192x192",
@@ -31,7 +33,7 @@
       "type": "image/png",
       "purpose": "maskable"
     },
-     {
+    {
       "src": "windows11/SmallTile.scale-100.png",
       "sizes": "71x71"
     },
@@ -352,5 +354,4 @@
       "sizes": "256x256"
     }
   ]
-
 }

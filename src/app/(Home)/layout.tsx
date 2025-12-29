@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: "دستیار دوتا",
   description: "7.03b راهنمای آموزشی مپ وارکرفت",
   manifest: "/manifest.json",
-  themeColor: "#ffffff",
+ 
   icons: [{ rel: "icon", url: "/images/war.jpg" }],
   metadataBase: new URL("https://dota1.ir"), //add this
   robots: {
@@ -27,6 +27,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+};
+export const viewport = {
+   themeColor: "#ffffff",
 };
 
 export default function RootLayout({
@@ -39,6 +42,11 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`} >
         <SWRegister />
         <img src="/images/war.jpg" alt="warcraft" className="absolute fixed -z-10 h-full w-full object-cover blur-[3px]" />
+        <head>
+          <meta name="color-scheme" content="light" />
+          <meta name="theme-color" content="#ffffff" />
+
+        </head>
         <main>
           {children}
         </main>

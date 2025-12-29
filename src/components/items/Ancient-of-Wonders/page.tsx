@@ -2,7 +2,7 @@ export default function AncientOfWonders() {
     return (
         <div>
             <section className="flex items-center justify-center gap-[2px] border-[4px] border-[green]" dir="ltr">
-                <img src="images/items/wonders/m.png" alt="نشان انشنت آف واندرز" className="w-[20px] h-[20px]" />
+                <img src="/images/items/wonders/m.png" alt="نشان انشنت آف واندرز" className="w-[20px] h-[20px]" />
                 <h2 className="text-white">Ancient Of Wonders</h2>
             </section>
             <table>

@@ -2,7 +2,7 @@ export default function ScourgeAguility() {
   return (
     <div>
       <section className="flex items-center justify-center gap-[2px] border-6 border-green-950" dir="ltr">
-        <img src="images/5.png" alt="نشان اسکورج" className="w-[20px] h-[20px]" />
+        <img src="/images/5.png" alt="نشان اسکورج" className="w-[20px] h-[20px]" />
         <h2 className="text-white">Scourge Aguility</h2>
       </section>
       <table>
