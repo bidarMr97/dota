@@ -23,9 +23,6 @@ import ExplainAtion from "@/components/explaination/page";
 export default function Home() {
   return (
     <div className="flex flex-col p-[4px] lg:flex lg:flex-row">
-      <section>
-       
-      </section>
 
       <section className="lg:order-1 lg:sticky lg:top-0 lg:h-fit lg:grow lg:ml-[10px]">
         <aside>

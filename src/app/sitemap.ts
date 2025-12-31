@@ -9,15 +9,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       priority: 1,
     },
-    {
-      url: `${baseUrl}/Farsi-Home`,
-      lastModified: new Date(),
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/English-Home`,
-      lastModified: new Date(),
-      priority: 0.7,
-    }
   ];
 }

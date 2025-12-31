@@ -17,9 +17,8 @@ export const metadata: Metadata = {
   title: "دستیار دوتا",
   description: "7.03b راهنمای آموزشی مپ وارکرفت",
   manifest: "/manifest.json",
- 
-  icons: [{ rel: "icon", url: "/images/war.jpg" }],
-  metadataBase: new URL("https://dota1.ir"), //add this
+  icons: [{ rel: "icon", url: "/favicon.ico" }],
+  metadataBase: new URL("https://dota1.ir"), 
   robots: {
     index: true,
     follow: true,
@@ -28,8 +27,9 @@ export const metadata: Metadata = {
     canonical: "/",
   },
 };
+console.log(metadata);
 export const viewport = {
-   themeColor: "#ffffff",
+  themeColor: "#ffffff",
 };
 
 export default function RootLayout({
@@ -45,7 +45,6 @@ export default function RootLayout({
         <head>
           <meta name="color-scheme" content="light" />
           <meta name="theme-color" content="#ffffff" />
-
         </head>
         <main>
           {children}
