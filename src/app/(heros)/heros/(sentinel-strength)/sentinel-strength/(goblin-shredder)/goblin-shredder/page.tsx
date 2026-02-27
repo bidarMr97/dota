@@ -19,7 +19,7 @@ export default function GoblinShredder() {
                 <Table data={[
                     { href: "/items/todd/aghanim", img: "/images/items/todd/aghanim.png", className: "null" ,alt:"اقانیم"},
                     { href: "/items/protector/blade", img: "/images/items/protector/blade.png", className: "null" ,alt:"بلید"},
-                    { href: "/items/supportive/greaves", img: "/images/items/supportive/greaves.png", className: "null" ,alt:"گریوز"},
+                    { href: "/items/supportive/guardian", img: "/images/items/supportive/greaves.png", className: "null" ,alt:"گریوز"},
                     { href: "/items/protector/heart", img: "/images/items/protector/heart.png", className: "null" ,alt:"هارت"},
                     { href: "/items/protector/blood", img: "/images/items/protector/blood.png", className: "null" ,alt:"بلادثورن"},
                     { href: "/items/todd/core", img: "/images/items/todd/core.png", className: "null" ,alt:"اکتارین کور"},]} />

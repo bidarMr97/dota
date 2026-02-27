@@ -18,7 +18,7 @@ export default function () {
             </div>
             <div>
                 <Table data={[
-                    { href: "/items/supportive/greaves", img: "/images/items/supportive/greaves.png", className: "null" ,alt:"گریوز"},
+                    { href: "/items/supportive/guardian", img: "/images/items/supportive/greaves.png", className: "null" ,alt:"گریوز"},
                     { href: "/items/supportive/vladmir", img: "/images/items/supportive/vladmir.png", className: "null" ,alt:"ولادمیر"},
                     { href: "/items/trophy/hex", img: "/images/items/trophy/hex.png", className: "null" ,alt:"هکس"},
                     { href: "/items/todd/aghanim", img: "/images/items/todd/aghanim.png", className: "null" ,alt:"اقانیم"},

@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     canonical: "/",
   },
 };
-console.log(metadata);
+
 export const viewport = {
   themeColor: "#ffffff",
 };

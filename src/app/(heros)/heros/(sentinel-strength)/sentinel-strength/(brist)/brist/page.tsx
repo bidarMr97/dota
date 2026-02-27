@@ -21,7 +21,7 @@ export default function Brist() {
                 <Table data={[
                     { href: "/items/protector/blade", img: "/images/items/protector/blade.png", className: "null", alt:"بلید"},
                     { href: "/items/todd/core", img: "/images/items/todd/core.png", className: "null", alt: "کور" },
-                    { href: "/items/supportive/greaves", img: "/images/items/supportive/greaves.png", className: "null", alt: "گریوز" },
+                    { href: "/items/supportive/guardian", img: "/images/items/supportive/greaves.png", className: "null", alt: "گریوز" },
                     { href: "/items/todd/aghanim", img: "/images/items/todd/aghanim.png", className: "null", alt: "اقانیم" },
                     { href: "/items/protector/crimson", img: "/images/items/protector/crimson.png", className: "null", alt: "کریمسون" },
                     { href: "/items/protector/heart", img: "/images/items/protector/heart.png", className: "null", alt: "هارت" },]} />

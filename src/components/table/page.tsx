@@ -9,6 +9,7 @@ interface TableProps {
   data: TableItem[]; 
 }
 
+
 export default function Table({ data }: TableProps) {
   return (
     <div className="m-[20px] flex justify-center">
